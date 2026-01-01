@@ -33,3 +33,11 @@ A modern, feature-rich **Telegram bot** built with Python, designed for scalabil
 ```bash
 git clone https://github.com/asikrshoudo/Telegram-bot-2.git
 cd Telegram-bot-2
+
+
+### Step 2: Setup Environment
+
+**Method A: Using Setup Script (Recommended)**
+```bash
+chmod +x scripts/setup.sh
+./scripts/setup.sh
