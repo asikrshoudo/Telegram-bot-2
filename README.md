@@ -34,37 +34,48 @@ A modern, feature-rich Telegram bot built with Python, designed for scalability 
 ```bash
 git clone [https://github.com/asikrshoudo/Telegram-bot-2.git](https://github.com/asikrshoudo/Telegram-bot-2.git)
 cd Telegram-bot-2
+```
+
 
 Step 2: Setup Environment
 📝 Method A: Using Setup Script (Recommended)
 # Make the script executable
+```
 chmod +x scripts/setup.sh
+```
 
 # Run the setup script
+```
 ./scripts/setup.sh
+```
 
 📝 Method B: Manual Setup
  * Create virtual environment:
    # Linux/macOS
+```
 python -m venv venv
 source venv/bin/activate
-
+```
 # Windows
+```
 python -m venv venv
 venv\Scripts\activate
-
+```
  * Install dependencies:
+```
    pip install -r requirements.txt
-
+```
  * Create necessary directories:
+```
    mkdir -p data logs
-
+```
 Step 3: Configure Your Bot
  * Get your bot token from @BotFather.
  * Configure environment variables:
    # Copy the example file
+```
 cp .env.example .env
-
+```
  * Edit the .env file with your details:
    # REQUIRED: Your bot token
 BOT_TOKEN=1234567890:ABCDEFG...
@@ -77,15 +88,18 @@ DATABASE_URL=sqlite:///data/bot.db
 
 Step 4: Run the Bot
 🐍 Running with Python:
+```
 python main.py
-
+```
 🐳 Running with Docker:
 # Build and run with Docker Compose
+```
 docker-compose up -d
-
+```
 # Check logs
+```
 docker-compose logs -f
-
+```
 📖 Usage
 Basic Commands
  * /start - Start the bot
