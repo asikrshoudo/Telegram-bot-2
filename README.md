@@ -49,9 +49,9 @@ chmod +x scripts/setup.sh
 cp .env.example .env
 ```
 
-##Edit .env with your details:
-`env
+###Edit .env with your details:
+`env`
 BOT_TOKEN=1234567890:ABCDEFG...
 ADMIN_IDS=123456789,987654321
 DATABASE_URL=sqlite:///data/bot.db
-`
+
