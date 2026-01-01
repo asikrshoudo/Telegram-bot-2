@@ -43,3 +43,15 @@ chmod +x scripts/setup.sh
 ./scripts/setup.sh
 
 ```
+
+### Step 3: Configure Your Bot
+```bash
+cp .env.example .env
+```
+
+##Edit .env with your details:
+`env
+BOT_TOKEN=1234567890:ABCDEFG...
+ADMIN_IDS=123456789,987654321
+DATABASE_URL=sqlite:///data/bot.db
+`
